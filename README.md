@@ -1,24 +1,22 @@
-# README
+# React In Rails Template
+This template is a React in Rails application. It comes preinstalled with ReactStrap for styling, RSpec for testing, and Devise for user authentication.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
 
-Things you may want to cover:
+$`bundle install`
 
-* Ruby version
+$`yarn`
 
-* System dependencies
+$`rails db:create`
 
-* Configuration
+$`rails db:migrate`
 
-* Database creation
+$`rails s`
 
-* Database initialization
+## React
+React component views will be in app/javascript/components
 
-* How to run the test suite
+## Testing
+RSpec testing files will be in spec/
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run a $`rspec` to run tests
